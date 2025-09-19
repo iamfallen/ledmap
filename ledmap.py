@@ -978,7 +978,7 @@ def draw_apwx(STATE, use_cache=0):
     if use_cache == 0:
         # New API endpoint – returns valid XML from the first byte
         base_url = (
-            "https://aviationweather.gov/cgi-bin/data/dataserver.php"
+            "https://aviationweather.gov/api/data/dataserver"
             "?dataSource=metars"
             "&requestType=retrieve"
             "&format=xml"
